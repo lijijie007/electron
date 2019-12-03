@@ -20,7 +20,7 @@ folder structure:
 ```plaintext
 your-app/
 ├── package.json
-├── main.js
+├── index.js
 └── index.html
 ```
 
@@ -81,7 +81,7 @@ allows you to work on multiple apps with different Electron versions. To do so,
 run the following command from your app's directory:
 
 ```sh
-npm install --save-dev electron
+npm install electron --verbose
 ```
 
 Other means for installing Electron exist. Please consult the
